@@ -7,7 +7,7 @@ body {
     background-image: url("../images/so-white.png");
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    font-size: 1em; 
+    font-size: 1em;
 }
 
 header {
@@ -35,7 +35,7 @@ a:hover, .btn:hover {
 }
 
 nav a {
-    border-right: 1px solid #777777; 
+    border-right: 1px solid #777777;
     padding: 0 1em;
     position: relative;
     top: 35px;
@@ -126,7 +126,7 @@ img {
     height: 200px;
     display: inline-block;
     margin-right: 27px;
-    margin-bottom: 33px;  
+    margin-bottom: 33px;
 }
 
 .project-title {
@@ -166,3 +166,13 @@ img {
     border: none;
     font-size: 1em;
 }
+
+@media screen and (max-width: 980px) {
+    }
+
+@media screen and (max-width: 768px) {
+        }
+
+@media screen and (max-width: 640px) {
+    
+            }
