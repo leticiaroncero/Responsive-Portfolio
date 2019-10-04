@@ -17,7 +17,7 @@ header {
 }
 
 .header-content {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ nav a:last-child {
 }
 
 section {
-    width: 960px;
+    max-width: 960px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin: 0 auto;
@@ -179,7 +179,6 @@ img {
     .header-content {
         display: block;
     }
-
     nav, h1 {
         float: none;
         /* display: block; */
@@ -187,7 +186,6 @@ img {
     nav a {
         position: static;
     }
-
     section {
         width: 90%;
         height: 90%;
@@ -198,7 +196,6 @@ img {
     .main-content {
         padding-bottom: 25px;
     }
-
     .avatar-image {
         width: 100%;
         height: auto;
