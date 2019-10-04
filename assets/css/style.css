@@ -167,12 +167,41 @@ img {
     font-size: 1em;
 }
 
-@media screen and (max-width: 980px) {
-    }
+@media screen and (max-width: 980px) {}
 
-@media screen and (max-width: 768px) {
-        }
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 640px) {
-    
-            }
+    header {
+        position: static;
+        overflow: auto;
+    }
+    .header-content {
+        display: block;
+    }
+
+    nav, h1 {
+        float: none;
+        /* display: block; */
+    }
+    nav a {
+        position: static;
+    }
+
+    section {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+    .main-content {
+        padding-bottom: 25px;
+    }
+
+    .avatar-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+}
