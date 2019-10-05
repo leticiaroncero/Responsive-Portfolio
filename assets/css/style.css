@@ -208,6 +208,8 @@ img {
     }
     section {
         width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .main-content {
         padding-bottom: 25px;
