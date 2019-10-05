@@ -193,6 +193,9 @@ img {
         position: static;
         overflow: auto;
     }
+    .header-content {
+        padding: 0;
+    }
     nav, h1 {
         float: none;
         text-align: center;
