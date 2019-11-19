@@ -30,7 +30,7 @@ a {
     text-decoration: none;
 }
 
-a:hover, .btn:hover {
+a:hover {
     color: black;
 }
 
@@ -53,7 +53,12 @@ section {
     margin: 0 auto;
     padding: 25px;
     margin-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
+    border-radius: .25rem;
+}
+
+section:last-of-type {
+    margin-bottom: 150px;
 }
 
 .avatar-image {
@@ -107,12 +112,26 @@ h2 {
     padding: 1em 0;
     color: #4aaaa5;
     font-size: 1.5em;
+    text-align: center;
 }
 
 h3 {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 1.3em;
+}
+
+.card {
+    margin: 0 10px 33px;
+    width: 17rem;
+    display: inline-block;
+}
+
+.card-body .btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+    text-align: center;
 }
 
 img {
@@ -168,9 +187,14 @@ img {
     font-size: 1em;
 }
 
+.btn:hover {
+    background-color: #31918C;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 980px) {
     .header-content {
-        padding: 0 30px; 
+        padding: 0 30px;
     }
     section {
         width: 691px;
@@ -181,7 +205,7 @@ img {
 @media screen and (max-width: 768px) {
     .header-content {
         max-width: 980px;
-        padding: 0 30px; 
+        padding: 0 30px;
     }
     section {
         max-width: 90%;
@@ -223,4 +247,8 @@ img {
         width: 100%;
         height: auto;
     }
+    .card {
+        width: 90%;
+    }
+    
 }
