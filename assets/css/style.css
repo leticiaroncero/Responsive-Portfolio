@@ -125,6 +125,7 @@ h3 {
     margin: 0 10px 33px;
     width: 17rem;
     display: inline-block;
+    text-align: left;
 }
 
 .card-body .btn {
@@ -192,6 +193,11 @@ img {
     color: #ffffff;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width: 980px) {
     .header-content {
         padding: 0 30px;
@@ -250,5 +256,4 @@ img {
     .card {
         width: 90%;
     }
-    
 }
