@@ -5,9 +5,10 @@
 body {
     margin: 0;
     background-image: url("../images/so-white.png");
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #17252A;
     font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 header {
@@ -37,6 +38,7 @@ a {
 
 a:hover {
     color: #DEF2F1;
+    text-decoration: none;
 }
 
 nav a {
@@ -74,12 +76,14 @@ section:last-of-type {
 .avatar-image {
     float: left;
     margin-right: 25px;
+    margin-bottom: 10px; 
     width: 200px;
     height: 200px;
+    border-radius: .25rem;
 }
 
 p {
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 .main-content {
@@ -97,7 +101,7 @@ footer {
     text-align: center;
     border-top: 8px solid #3AAFA9;
     color: #c0c0c0;
-    background-color: #666666;
+    background-color: #17252A;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -108,11 +112,11 @@ h1 {
     margin-left: 10px;
     color: #ffffff;
     float: left;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
-h1, h2, h3 {
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+h1, h2, h3, h5 {
+    font-family: 'Abril Fatface', serif;
     font-weight: bold;
 }
 
@@ -121,7 +125,6 @@ h2 {
     padding: 1em 0;
     color: #2B7A78;
     font-size: 1.5em;
-    text-align: center;
 }
 
 h3 {
@@ -165,6 +168,10 @@ img {
     display: inline-block;
     margin-right: 27px;
     margin-bottom: 33px;
+}
+
+.project-box a:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .project-title {
@@ -213,6 +220,10 @@ img {
 .icons {
     display: flex;
     justify-content: space-evenly;
+}
+
+.icons a:hover {
+    color: #3AAFA9;
 }
 
 @media screen and (max-width: 980px) {
