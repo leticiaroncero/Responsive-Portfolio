@@ -11,9 +11,13 @@ body {
 }
 
 header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    overflow: hidden;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #3AAFA9;
 }
 
 .header-content {
@@ -26,19 +30,21 @@ nav {
 }
 
 a {
-    color: #777777;
+    color: #17252A;
+    font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: #DEF2F1;
 }
 
 nav a {
     border-right: 1px solid #777777;
     padding: 0 1em;
     position: relative;
-    top: 35px;
+    top: 60px;
+    right: 10px;
 }
 
 nav a:last-child {
@@ -55,6 +61,10 @@ section {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: .25rem;
+}
+
+section:first-of-type {
+    margin-top: 150px;
 }
 
 section:last-of-type {
@@ -85,7 +95,7 @@ p {
 footer {
     padding-top: 20px;
     text-align: center;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #3AAFA9;
     color: #c0c0c0;
     background-color: #666666;
     position: fixed;
@@ -94,10 +104,9 @@ footer {
 }
 
 h1 {
-    padding: 28px;
-    background-color: #4aaaa5;
+    margin-top: 50px;
+    margin-left: 10px;
     color: #ffffff;
-    margin: 0;
     float: left;
     font-size: 2em;
 }
@@ -110,15 +119,19 @@ h1, h2, h3 {
 h2 {
     border-bottom: 2px solid #cccccc;
     padding: 1em 0;
-    color: #4aaaa5;
+    color: #2B7A78;
     font-size: 1.5em;
     text-align: center;
 }
 
 h3 {
-    background-color: #4aaaa5;
+    background-color: #3AAFA9;
     color: #ffffff;
     font-size: 1.3em;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 .card {
@@ -133,6 +146,10 @@ h3 {
     justify-content: space-around;
     margin: 5px auto;
     text-align: center;
+}
+
+.card-text {
+    height: 4em;
 }
 
 img {
@@ -182,7 +199,7 @@ img {
 
 .btn {
     padding: 10px 20px;
-    background-color: #4aaaa5;
+    background-color: #3AAFA9;
     color: #ffffff;
     border: none;
     font-size: 1em;
@@ -222,6 +239,7 @@ img {
     header {
         position: static;
         overflow: auto;
+        height: 180px;
     }
     .header-content {
         padding: 0;
@@ -241,6 +259,9 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+    section:first-of-type {
+        margin-top: 30px;
+    }    
     .main-content {
         padding-bottom: 25px;
     }
