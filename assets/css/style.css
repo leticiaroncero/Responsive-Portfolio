@@ -18,7 +18,24 @@ header {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #3AAFA9;
+}
+
+.header-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    background: url("../images/header-background.jpg");
+    background-position: center bottom -1100px;
+    opacity: 0.8;
+}
+
+.header-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -2;
 }
 
 .header-content {
@@ -47,6 +64,12 @@ nav a {
     position: relative;
     top: 60px;
     right: 10px;
+    color: #FEFFFF;
+}
+
+nav a:hover {
+    color: #3AAFA9;
+    text-decoration: none;
 }
 
 nav a:last-child {
@@ -76,7 +99,7 @@ section:last-of-type {
 .avatar-image {
     float: left;
     margin-right: 25px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     width: 200px;
     height: 200px;
     border-radius: .25rem;
@@ -272,7 +295,7 @@ img {
     }
     section:first-of-type {
         margin-top: 30px;
-    }    
+    }
     .main-content {
         padding-bottom: 25px;
     }
