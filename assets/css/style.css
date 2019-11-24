@@ -120,7 +120,7 @@ p {
 }
 
 footer {
-    padding-top: 20px;
+    height: 60px;
     text-align: center;
     border-top: 8px solid #3AAFA9;
     color: #c0c0c0;
@@ -128,6 +128,47 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    margin: 0 auto;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.copyright p {
+    margin: auto;
+}
+
+.foot-social {
+    margin: 0 auto;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.foot-social ul {
+    margin: auto;
+    padding: 0px;
+}
+
+.foot-social li {
+    vertical-align: top;
+    display: inline;
+    margin-right: 10px;
+}
+.foot-social li:last-child {
+    margin-right: 0;
+}
+
+.foot-social a {
+    color: #c0c0c0;
+}
+
+.foot-social a:hover {
+    color: #3AAFA9;
+    text-decoration: none;
 }
 
 h1 {
@@ -182,11 +223,12 @@ h5 {
     width: 100%;
     height: 150px;
     object-fit: cover;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -316,5 +358,12 @@ img {
     }
     .card {
         width: 90%;
+    }
+    footer {
+        height: 70px;
+        display: block;
+    }
+    .copyright, .foot-social {
+        display: block;
     }
 }
