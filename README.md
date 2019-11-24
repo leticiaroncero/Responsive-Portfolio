@@ -20,14 +20,8 @@ The goal of this project was to enhance [our previous portfolio](https://github.
 
 ## GIF Walkthrough
 
-About Page:
-![About Page](/assets/screenshots/responsive-portfolio-about.gif  "About Me")
-
-Portfolio:
-![Portfolio Page](/assets/screenshots/responsive-portfolio-portfolio.gif  "Portfolio")
-
-Contact:
-![Contact Page](/assets/screenshots/responsive-portfolio-contact.gif  "Contact")
+Portfolio Page:
+![Portfolio Page](/assets/screenshots/responsive-portfolio.gif  "Portfolio")
 
 ## Essential Code
 
